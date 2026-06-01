@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Ejercicio 2.1 - Tarjeta personal</title>
+</head>
+<body>
+<h1>Mira la consola (F12)</h1>
+<script>
+// 1. Declara tus datos personales 
+const nombre = "Joel"; 
+const apellido = "Ramirez"; 
+const edad = 17;
+const ciudad = "Cúcuta"; 
+const anioActual = 2026;
+const programa = "Analisis y Desarrollo de Software";
+const ficha = "3406234";
+const jornada = "mañana";
+const semestre = "primero";
+let estudiante = true;
+
+
+// 2. Imprime una tarjeta personal en consola 
+console.log(`=== TARJETA PERSONAL ===`);
+console.log(`Nombre: ${nombre} ${apellido}`);
+console.log(`Edad: ${edad} años`);
+console.log(`Ciudad: ${ciudad}`);
+console.log(`¿Es estudiante?: ${estudiante}`);
+console.log(`Programa: ${programa}`);
+console.log(`Ficha: ${ficha}`);
+console.log(`Jornada: ${jornada}`);
+console.log(`Semestre: ${semestre}`);
+
+// 3. Calcula el año de nacimiento aproximado const anioActual = 2026;
+const anioNacimiento = anioActual - edad;
+console.log(`Año aproximado de nacimiento: ${anioNacimiento}`);
+</script>
+</body>
+</html>
